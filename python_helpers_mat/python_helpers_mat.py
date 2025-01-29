@@ -5,6 +5,11 @@ import re
 import json
 import subprocess
 
+def test1():
+  print("test1")  
+
+
+
 def wczytaj_ini(plik_ini, czy_debug=False):
     """
     Wczytuje dane z pliku INI.
